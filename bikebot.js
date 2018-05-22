@@ -81,7 +81,7 @@ app.post('/list', function (req, res) {
             "value": bike.id
           }];
         }else{
-          attachment.text = "Varattu käyttäjälle" + bike.reservation.user;
+          attachment.text = "Varattu käyttäjälle " + bike.reservation.user;
         }
       }else {
         attachment.actions = 
