@@ -7,7 +7,17 @@ var reservation_callback = "reservation_callback";
 var reserve_button = "reservation_button";
 var return_button = "return_button";
 var initial_data = {
-          "bikes": {},
+          "bikes": {"1": {
+      "location": "Tampere",
+      "name": "Fillari 1",
+      "id": 1
+    },
+    "2": {
+      "location":
+      "Tampere",
+      "name": "Fillari 2",
+      "id": 2
+    }},
           "reservations": []
         };
 
